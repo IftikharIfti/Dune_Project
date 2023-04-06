@@ -1,0 +1,40 @@
+.table-view {
+    /*  -fx-background-image: url("Arrakis.jpg");*/
+    -fx-background-size: cover;
+}
+.table-cell {
+    -fx-background-color: transparent;
+}
+.table-view .column-header-background .table-column .label {
+    -fx-background-image: url("Arrakis.jpg");
+    -fx-background-size: cover;
+}
+.table-row-cell {
+    -fx-background-image: url("Arrakis.jpg");
+    /*-fx-background-color: #774141;*/
+}
+.table-cell {
+    -fx-text-fill: white;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: transparent;
+    -fx-border-color: #000000;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5 5 0 0;
+}
+.table-view .scroll-bar:horizontal {
+    -fx-opacity: 0;
+    -fx-pref-height: 0;
+    -fx-min-height: 0;
+    -fx-max-height: 0;
+}
+
+.anchor-pane {
+    -fx-background-image: url("ark.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}

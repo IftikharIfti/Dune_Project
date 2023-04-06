@@ -1,0 +1,42 @@
+.menu_backGround{
+    -fx-background-image: url("MainMenuImage.jpg");
+    -fx-background-size: 100% 100%;
+}
+
+.playButton{
+    -fx-background-image:url("playbutton.png");
+    -fx-background-size: 100% 100%;
+
+}
+.playButton:hover{
+    /*-fx-background-color:#ffecc6;*/
+    -fx-background-image:url("playbutton2.png");
+    -fx-background-size: 100% 100%;
+
+}
+.welcomeText{
+    -fx-background-image: url("welcomeFlag.png");
+    -fx-background-size: 100% 100%;
+}
+.log_out_button{
+    -fx-background-color:#115acc;
+    -fx-text-fill: #ffffff;
+
+}
+.log_out_button:hover{
+    -fx-background-color:#fffcc7;
+    -fx-text-fill: #000000;
+}
+.score_board_button{
+    -fx-background-color:#115acc;
+    -fx-text-fill: #ffffff;
+
+}
+.score_board_button:hover{
+    -fx-background-color:#fffcc7;
+    -fx-text-fill: #000000;
+}
+
+.cursor_hand{
+    -fx-cursor: hand;
+}
